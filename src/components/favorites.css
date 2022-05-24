@@ -1,0 +1,159 @@
+.favorites {
+    box-sizing: border-box;
+    border: 1px solid rgb(170, 170, 170);
+    padding: 30px 20px;
+
+}
+
+.favorites__name {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid rgba(0, 8, 7, .5);
+    color: rgb(94, 93, 93);
+    margin-bottom: 24px;
+}
+
+.favorites__list {
+    margin-bottom: 24px;
+}
+
+.favorites__save {
+    border: none;
+    background-color: #2fa4d3;
+    padding: 10px 15px;
+    color: #FFEEDB;
+    font-size: 14px;
+    transition: all 0.2s linear;
+
+}
+
+.fav-disable {
+    border: none;
+    background-color: #2fa4d3;
+    color: rgb(240, 238, 238);
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+
+.favorites__save:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    transition: all 0.2s linear;
+}
+
+.listItem {
+    border: 1px solid rgb(221, 215, 215);
+    list-style: none;
+    padding: 2%;
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delBtn {
+    height: 20px;
+    background-color: rgb(165, 10, 10);
+    border: 1px solid rgb(165, 10, 10);
+    color: #fff;
+    font-weight: 700;
+
+}
+
+
+
+@media (max-width: 1024px) and (min-width: 900px) {
+    .favorites__name {
+        font-size: 14px;
+        padding: 3px 8px;
+
+    }
+
+    .favorites__save {
+        padding: 8px 13px;
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 899px) and (min-width: 750px) {
+    .favorites__name {
+        font-size: 14px;
+        padding: 3px 8px;
+    }
+
+
+    .favorites__save {
+        padding: 8px 13px;
+        font-size: 12px;
+
+    }
+
+    .fav-disable {
+        padding: 8px 13px;
+        font-size: 12px;
+    }
+
+}
+
+
+@media (max-width: 749px) and (min-width: 550px) {
+    .listItem {
+        font-size: 15px;
+    }
+
+    .favorites {
+        margin: 5% 0;
+        padding: 35px 25px;
+
+    }
+
+    .favorites__save {
+        padding: 8px 13px;
+        font-size: 12px;
+
+    }
+
+    .fav-disable {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 549px) and (min-width: 350px) {
+    .listItem {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 349px) {
+    .listItem {
+        font-size: 13px;
+    }
+
+    .favorites {
+        margin: 5% 0;
+        padding: 20px 15px;
+
+    }
+
+    .favorites__save {
+        padding: 5px 10px;
+        font-size: 12px;
+
+    }
+
+    .fav-disable {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    .favorites__name {
+        font-size: 13px;
+        padding: 3px 8px;
+    }
+}
